@@ -33,6 +33,7 @@ body {
   padding: 50px 0;
   background-color: #000000;
   color: #fff;
+
 }
 
 /* Goals Section Styles */
@@ -117,10 +118,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   justify-content: center;
   height: 100vh;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: rgb(89, 194, 235);
+  color: #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -133,7 +135,7 @@ footer {
 .splash-screen h1 {
   font-size: 2em;
 }
-
+/* 
 .splash-screen button {
   margin-top: 20px;
   padding: 10px 20px;
@@ -143,7 +145,7 @@ footer {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-}
+} */
 
 .splash-screen button:hover {
   background-color: #0056b3;

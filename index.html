@@ -13,7 +13,7 @@
 <body>
   <div class="splash-screen" id="splashScreen">
     <h1>Welcome to NexGen AI</h1>
-    <button onclick="enterWebsite()">Enter</button>
+    <button onclick="enterWebsite()" class="btn btn-warning">Enter</button>
   </div>
   <div id="main-content" id="mainContent">
 
@@ -210,6 +210,9 @@
       setTimeout(() => {
         document.getElementById("splashScreen").style.display = "none";
         document.getElementById("main-content").style.position = "relative";
+        document.querySelector("#goal h1").classList.add(
+          "goalAnimation"
+        )
 
       }, 1000);
     }
